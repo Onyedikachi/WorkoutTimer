@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Workout Timer</title>
+	<link rel="stylesheet" href="main.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div class="content">
+		<div class="time-display">
+			<span class="hours"></span> hours: 
+			<span class="minutes"></span> minutes:
+			<span class="seconds"></span> seconds
+		</div>
+
+		<div class="controls">
+			<button class="btn start" onclick="startTimer()">Start</button>
+			<button class="btn pause" onclick="pauseTimer()" disabled="disabled">Pause</button>
+			<button class="btn continue" onclick="continueTimer()" style="display: none" >Continue</button>
+			<button class="btn stop" onclick="stopTimer()" disabled="disabled">Stop</button>
+		</div>
+	</div>
+	
+</body>
+</html>
